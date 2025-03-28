@@ -7,12 +7,40 @@
            
         </script>
         <style>
-          body{
-            background-image:url("https://www.porsche.com/brazil/pt/models/911/911-gt3-models/911-gt3/");
+         .site{
+               width: 1000px;;
+               height: 700px;;
+               background-color:pink;
+         }
+         .header{
+               width:inherit;
+               height: 100px;;
+               background-color:blue;
+
+          }
+          .main{
+               width:inherit;
+               height: 550px;;
+               background-color:rgb(227, 51, 227);
+
+         }
+         .footer{
+               width:inherit;
+               height: 50px;;
+               background-color:palevioletred;
+
           }
         </style>
     </head>
     <body>
+      <div  class="site">
+          <div class="header"></div>
+          <div class="main">
 
+          </div class></div>
+        </div class></div>
+        </div class>/<div>
+          <div class="footer"></div>
+        </div>
     </body>
-</html>
+</html> 
