@@ -7,40 +7,64 @@
            
         </script>
         <style>
-         .site{
-               width: 1000px;;
-               height: 700px;;
-               background-color:pink;
-         }
-         .header{
-               width:inherit;
-               height: 100px;;
-               background-color:blue;
-
-          }
-          .main{
-               width:inherit;
-               height: 550px;;
-               background-color:rgb(227, 51, 227);
-
-         }
-         .footer{
-               width:inherit;
-               height: 50px;;
-               background-color:palevioletred;
-
-          }
+            .site{
+                width:1000px;
+                height:700px;
+                background-color:red;
+            }
+            .header{
+                width:inherit;
+                height:100px;
+                background-color:blue;
+                background-image: url("https://revistafullpower.com.br/wp-content/uploads/2022/08/porsche-911-gt3-r.webp");
+                background-size: 30% ;
+            }
+            .main{
+                width:inherit;
+                height:550px;
+                background-color:aquamarine;
+            }
+            .footer{
+                width:inherit;
+                height:50px;
+                background-color:rgb(54, 240, 243);
+            }
+            .esquerda{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(244, 41, 200);
+                display:inline-block;
+                float: right;
+                background-image: url("https://revistafullpower.com.br/wp-content/uploads/2022/08/porsche-911-gt3-r.webp");
+                background-size: 50% ;
+            } 
+            .centro{
+                width:33.3%;;
+                height:inherit;
+                background-color:#a2015f;
+                display:inline-block;
+                float: right;
+            }
+            .direita{
+                width:33.3%;
+                height:inherit;
+                background-color:rgb(213, 158, 192);
+                display:inline-block;
+                float: right;
+                background-image: url("https://revistafullpower.com.br/wp-content/uploads/2022/08/porsche-911-gt3-r.webp");
+                background-size: 50% ;
+            }
         </style>
     </head>
     <body>
-      <div  class="site">
-          <div class="header"></div>
-          <div class="main">
-
-          </div class></div>
-        </div class></div>
-        </div class>/<div>
-          <div class="footer"></div>
+        <div class="site">
+           <div class="header"></div>
+           <div class="main">
+                <div class="esquerda"></div>
+                <div class="centro"></div>
+                <div class="direita"></div>
+           </div>
+           <div class="footer"></div>
         </div>
     </body>
-</html> 
+</html>
